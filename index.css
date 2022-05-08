@@ -1,0 +1,21 @@
+#container{
+    /* border: 1px solid red; */
+    display: flex;
+    
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    border: 1px solid black;
+    padding: 50px;
+    
+    
+}
+#product{
+    /* height: 1fr; */
+    width: 50%;
+    height: auto;
+    border: 1px solid black;
+    margin-left: 250px;
+}
